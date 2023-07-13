@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/monochrome-notes/static/css/main.d2b287f0.css",
+    "main.js": "/monochrome-notes/static/js/main.07bddd5a.js",
+    "index.html": "/monochrome-notes/index.html",
+    "main.d2b287f0.css.map": "/monochrome-notes/static/css/main.d2b287f0.css.map",
+    "main.07bddd5a.js.map": "/monochrome-notes/static/js/main.07bddd5a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2b287f0.css",
+    "static/js/main.07bddd5a.js"
+  ]
+}
