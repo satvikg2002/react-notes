@@ -1,2 +1,2 @@
-# monochrome-notes
-A simple React Notes App in the making
+# crumpled-notes
+A simple React Notes App

@@ -47,6 +47,8 @@ textarea {
 	border: none;
 	resize: none;
 	background-color: transparent;
+	color: #e1e1e1;
+	font-family: 'Merriweather', serif;
 }
 
 textarea:focus {
