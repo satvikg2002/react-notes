@@ -1,15 +1,13 @@
 body {
 	margin: 0;
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
-		'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
-		'Droid Sans', 'Helvetica Neue', sans-serif;
+	font-family: 'Merriweather', serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	background-image: url(images/background.jpg);
 }
 
 code {
-	font-family: source-code-pro, Menlo, Monaco, Consolas,
-		'Courier New', monospace;
+	font-family: 'Merriweather', serif;
 }
 
 .header {
@@ -18,12 +16,8 @@ code {
 	justify-content: space-between;
 }
 
-.dark-mode {
-	background-color: black;
-}
-
-.dark-mode h1 {
-	color: white;
+.h1 {
+	font-weight: bold;
 }
 
 .container {
@@ -42,16 +36,17 @@ code {
 		auto-fill,
 		minmax(250px, 1fr)
 	);
+	color: #e1e1e1;
 }
 
 .note.new {
-	background-color: #67d7cc;
+	background-image: url('images/background_notes.jpg');
 }
 
 textarea {
 	border: none;
 	resize: none;
-	background-color: #67d7cc;
+	background-color: transparent;
 }
 
 textarea:focus {
@@ -59,10 +54,11 @@ textarea:focus {
 }
 
 .save {
-	background-color: #e1e1e1;
+	background-image: url('images/background.jpg');
 	border: none;
-	border-radius: 15px;
 	padding: 5px 10px 5px 10px;
+	border-radius: 10px;
+
 }
 
 .save:hover {
@@ -71,8 +67,8 @@ textarea:focus {
 }
 
 .note {
-	background-color: #fef68a;
-	border-radius: 10px;
+	background-image: url('images/background_notes.jpg');
+	/* border-radius: 10px; */
 	padding: 1rem;
 	min-height: 170px;
 	display: flex;
@@ -94,7 +90,7 @@ textarea:focus {
 .search {
 	display: flex;
 	align-items: center;
-	background-color: rgb(233, 233, 233);
+	background-color: rgb(134, 134, 134);
 	border-radius: 10px;
 	padding: 5px;
 	margin-bottom: 1.5em;
@@ -102,10 +98,26 @@ textarea:focus {
 
 .search input {
 	border: none;
-	background-color: rgb(233, 233, 233);
+	background-color: transparent;
 	width: 100%;
 }
 
 .search input:focus {
 	outline: none;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+  font-family: 'Merriweather', serif;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white;
+  font-family: 'Merriweather', serif;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: white;
+  font-family: 'Merriweather', serif;
 }
