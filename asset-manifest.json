@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/monochrome-notes/static/css/main.d2b287f0.css",
-    "main.js": "/monochrome-notes/static/js/main.07bddd5a.js",
-    "index.html": "/monochrome-notes/index.html",
-    "main.d2b287f0.css.map": "/monochrome-notes/static/css/main.d2b287f0.css.map",
-    "main.07bddd5a.js.map": "/monochrome-notes/static/js/main.07bddd5a.js.map"
+    "main.css": "/crumpled-notes/static/css/main.351fdaa7.css",
+    "main.js": "/crumpled-notes/static/js/main.1aca0265.js",
+    "static/media/background.jpg": "/crumpled-notes/static/media/background.87bcc665be376f867a49.jpg",
+    "static/media/background_notes.jpg": "/crumpled-notes/static/media/background_notes.9a03e7a65b645115f43a.jpg",
+    "index.html": "/crumpled-notes/index.html",
+    "main.351fdaa7.css.map": "/crumpled-notes/static/css/main.351fdaa7.css.map",
+    "main.1aca0265.js.map": "/crumpled-notes/static/js/main.1aca0265.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2b287f0.css",
-    "static/js/main.07bddd5a.js"
+    "static/css/main.351fdaa7.css",
+    "static/js/main.1aca0265.js"
   ]
 }
